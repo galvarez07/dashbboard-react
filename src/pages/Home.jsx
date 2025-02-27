@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <h1>Inicio</h1>
-      <p>Bienvenido a la página de inicio del dashboard.</p>
+      <p>Bienvenido a la página de inicio del dashboard en REACT JS.</p>
     </div>
   );
 };
