@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Analytics from "./pages/Analytics";
 import Users from "./pages/Users";
 import Settings from "./pages/Settings";
+import Profile from "./pages/Profile";
 
 function App() {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -28,6 +29,7 @@ function App() {
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/users" element={<Users />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/perfil-usuario" element={<Profile />} />
           </Routes>
         </div>
       </div>
